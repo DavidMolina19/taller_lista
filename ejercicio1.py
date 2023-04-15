@@ -11,7 +11,7 @@ for i in numeros:
     numeroImpar = list(numero_Impar)
     numeroImpar.append(i)
     numero_Impar = tuple(numeroImpar)
-print(numero_Par)
-print(numero_Impar)
+print("los numeros pares son:",numero_Par)
+print("los numeros impares son:",numero_Impar)
 
     

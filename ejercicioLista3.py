@@ -10,5 +10,5 @@ while contador <= cantidad_numeros:
 asc=sorted(numeros)
 desc=sorted(numeros,reverse=True)
 
-print(asc)
-print(desc)
+print("los numeros ascendentes son: ",asc)
+print("los numeros descendentes son",desc)

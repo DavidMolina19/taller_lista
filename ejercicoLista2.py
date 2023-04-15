@@ -8,6 +8,6 @@ while contador <= cantidad_Departamentos:
   contador+=1
 desc=sorted(departamentos_Colombia,reverse=True)
 print(desc)
-print(departamentos_Colombia[-1])
-print(departamentos_Colombia[-2])
+print("el ultimo departamento es: ",departamentos_Colombia[-1])
+print("el penultimo departamento  es:",departamentos_Colombia[-2])
   

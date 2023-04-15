@@ -3,4 +3,4 @@ numero_usuario=int(input("ingrese un numero: "))
 
 for i in range(len(numeros_repetidos)):
   if numero_usuario == i:
-    print(numeros_repetidos.count(numero_usuario))
+    print("las veces que esta repetidas son: ",numeros_repetidos.count(numero_usuario))
